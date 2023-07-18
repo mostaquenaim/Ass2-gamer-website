@@ -1,0 +1,43 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* body  */
+*{
+    font-family: Work Sans;
+}
+/* nav  */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+.site-name{
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#G-of-gamer{
+    color: #ff42a5;
+}
+.right-side img{
+    width: 70px;
+    height: 50px;
+}
+#side-bar-3 ul{
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    background: #0b02231a;  
+}
