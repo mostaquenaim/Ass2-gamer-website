@@ -268,9 +268,8 @@ footer .site-part ul{
     height: 2em;
     margin: 2em;
 }
-.footer-logos img {
-    width: 30px; 
-    height: 30px; 
+.footer-logos i {
+    
   }
 .privacys{
     color: rgba(255, 255, 255, 0.60);
