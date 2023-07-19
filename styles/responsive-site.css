@@ -1,0 +1,79 @@
+@media screen and (max-width: 576px) {
+    nav, 
+    nav ul,
+    .banner,
+    .online-games-img,
+    .play-instant,
+    .privacys p {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .go-tos ul, .footer-logos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .privacys ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .heading-text{
+        font-size: 35px;
+    }
+    .banner img{
+        width: 80%;
+    }
+    .play-instant img{
+       width: 70%;
+    }
+    .game-type{
+        width: 150px;
+        height: 50px;
+        gap: 1rem;
+        padding: 0;
+        margin: 0.2em;
+    }
+    .game-type p{
+        color: #0B0223;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+    .game-type img{
+        width: 2em;
+    }
+
+    figure{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav,
+    .banner,
+    .online-games-img,
+    .play-instant {
+        flex-direction: column;
+        justify-content: center;
+    }
+    figure{
+        text-align: center;
+    }
+    .go-tos ul, .footer-logos
+    {
+        flex-wrap: wrap;
+    }
+    .play-instant img{
+    width: 80%;
+   }
+   .game-type{
+    width: 200px;
+    height: 50px;
+    gap: 1rem;
+    padding: 0.2em;
+    margin: 0.5em;
+    }
+    .game-type p{
+        color: #0B0223;
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+}
