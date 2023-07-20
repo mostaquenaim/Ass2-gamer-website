@@ -120,13 +120,17 @@ nav ul{
 } */
 .online-games-img{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .online-games figure{
+    height: 300px;
+    width: 300px;
     position: relative;
 }
 .online-games figure img{
-    height: 330px;
-    width: 380px;
+    height: 300px;
+    width: 300px;
     border-radius: 16px;
 }
 .online-game-txt{
@@ -145,8 +149,8 @@ nav ul{
 .online-game-gradient{
     background-color: #0B0223;
     position: absolute;
-    height: 330px;
-    width: 380px;
+    height: 300px;
+    width: 300px;
     border-radius: 16px;
     opacity: 0;
     display: flex;
@@ -165,15 +169,14 @@ nav ul{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    top: 10em;
-    left: 6.4em;
+    top: 8.4em;
+    left: 5em;
 }
 
 .online-game-gradient:hover{
     opacity: 80%;
     border: 2px solid #FF42A5;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 /* play instant  */
 .play-instant span{
@@ -184,6 +187,7 @@ nav ul{
 }
 .play-ins-img{
     position: relative;
+    margin-left: 50px;
 }
 .play-ins-img-2{
     position: absolute;
@@ -192,6 +196,7 @@ nav ul{
 }
 .play-instant{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
